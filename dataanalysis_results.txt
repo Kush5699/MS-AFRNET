@@ -1,0 +1,1532 @@
+✅ All imports successful!
+PIL version: 11.3.0
+NumPy version: 2.0.2
+Dataset 1 exists: True
+Dataset 2 exists: True
+Dataset 3 exists: True
+Dataset 4 exists: True
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+         DATASET 1: AFR-TRAINING-REAL
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+📁 DIRECTORY TREE: afr-training-real
+────────────────────────────────────────────────────────────
+├── 📂 74034_3_En_4_MOESM1_ESM/ (10,560 images)
+│      [1× other]
+│   ├── 📂 FVC2000/ (3,520 images)
+│   │      [1× other]
+│   │   ├── 📂 Dbs/ (3,520 images)
+│   │   ├── 📂 Doc/ (0 images)
+│   │   └── 📂 Src/ (0 images)
+│   ├── 📂 FVC2002/ (3,520 images)
+│   │   ├── 📂 Dbs/ (3,520 images)
+│   │   ├── 📂 Doc/ (0 images)
+│   │   └── 📂 Src/ (0 images)
+│   ├── 📂 FVC2004/ (3,520 images)
+│   │   ├── 📂 Dbs/ (3,520 images)
+│   │   ├── 📂 Doc/ (0 images)
+│   │   └── 📂 Src/ (0 images)
+│   └── 📂 SFINGE/ (0 images)
+│          [2× other]
+├── 📂 Sokoto Coventry Fingerprint Dataset/ (109,265 images)
+│   └── 📂 SOCOFing/ (109,265 images)
+│       ├── 📂 Altered/ (47,995 images)
+│       ├── 📂 Real/ (6,000 images)
+│       └── 📂 SOCOFing/ (55,270 images)
+├── 📂 sd300a/ (19,435 images)
+│   └── 📂 images/ (19,435 images)
+│          [1× other]
+│       └── 📂 500/ (19,435 images)
+├── 📂 sd301a/ (4,366 images)
+│   └── 📂 images/ (4,366 images)
+│       └── 📂 friction-ridge/ (4,366 images)
+├── 📂 sd301b/ (1,200 images)
+│   └── 📂 images/ (1,200 images)
+│       └── 📂 latent/ (1,200 images)
+├── 📂 sd302a/ (13,630 images)
+│   └── 📂 images/ (13,630 images)
+│       └── 📂 challengers/ (13,630 images)
+├── 📂 sd302b/ (11,796 images)
+│   └── 📂 images/ (11,796 images)
+│       └── 📂 baseline/ (11,796 images)
+├── 📂 sd302d/ (5,141 images)
+│   └── 📂 images/ (5,141 images)
+│       └── 📂 auxiliary/ (5,141 images)
+└── 📂 sd302e/ (39,960 images)
+    └── 📂 images/ (39,960 images)
+           [2× other]
+        └── 📂 latent/ (39,960 images)
+
+======================================================================
+📂 ANALYZING: Dataset1-Real
+   Path: /kaggle/input/datasets/kushp3690/afr-training-real
+======================================================================
+🔍 Scanning for image files...
+   Found: 215,353 images
+📊 Extracting metadata from ALL 215,353 images...
+Metadata: 100%|██████████| 215353/215353 [21:41<00:00, 165.50it/s]
+✅ Analysis complete for Dataset1-Real
+
+────────────────────────────────────────────────────────────
+📋 SUMMARY: Dataset1-Real
+────────────────────────────────────────────────────────────
+
+📁 Total images:     215,353
+   Valid (readable): 215,353
+   Errors:           0
+
+📄 File Formats:
+       .bmp:  109,265 (50.7%)
+       .png:   95,528 (44.4%)
+       .tif:   10,560 (4.9%)
+
+🎨 Image Modes (Channels):
+          L (1ch):  179,166 (83.2%)
+       I;16 (1ch):   21,335 (9.9%)
+       RGBA (4ch):   11,912 (5.5%)
+          1 (1ch):    2,402 (1.1%)
+        RGB (3ch):      538 (0.2%)
+
+📐 Resolution Statistics:
+   Width  — min:     1  max:  4992  mean:   411.0  median:    96.0
+   Height — min:     1  max:  5120  mean:   425.7  median:   103.0
+
+📏 Unique Resolutions: 22670
+   Top 10:
+            96×103:  108,399 (50.3%)
+           800×750:    8,461 (3.9%)
+         1600×1500:    4,453 (2.1%)
+           256×360:    1,992 (0.9%)
+           512×512:    1,961 (0.9%)
+           288×384:    1,760 (0.8%)
+           300×300:    1,760 (0.8%)
+         1248×1024:    1,142 (0.5%)
+           248×319:      930 (0.4%)
+           256×364:      894 (0.4%)
+
+📐 Aspect Ratios:
+   min: 0.102  max: 4.783  mean: 0.958
+
+💾 File Sizes:
+   min: 0.1 KB  max: 27621.8 KB  mean: 200.3 KB  total: 42125.2 MB
+
+🔲 Pixel Intensity (grayscale, sampled 500 images):
+   Mean intensity — min: 52.6  max: 255.0  avg: 175.5
+   Std intensity  — min: 0.0  max: 126.7  avg: 68.7
+
+📂 Sub-datasets found:
+                    NIST-SD302e/Latent: 39,960 images  |  W:     267–2167  H:     267–2711  |  L, I;16
+                 SOCOFing/Altered-Easy: 34,587 images  |  W:       96–241  H:      103–298  |  L
+               SOCOFing/Altered-Medium: 34,134 images  |  W:       96–241  H:      103–298  |  L
+                 SOCOFing/Altered-Hard: 28,544 images  |  W:       96–241  H:      103–298  |  L
+                NIST-SD302a/Challenger: 13,630 images  |  W:       1–1248  H:       1–1024  |  L, 1
+                         SOCOFing/Real: 12,000 images  |  W:       96–241  H:      103–298  |  RGBA, RGB
+                     NIST-SD300a/Plain: 10,564 images  |  W:     256–1978  H:     256–1340  |  L
+                    NIST-SD300a/Rolled:  8,871 images  |  W:      462–979  H:      510–972  |  L
+                  NIST-SD302b/Baseline:  8,000 images  |  W:     800–1600  H:     750–1500  |  L
+                     NIST-SD302d/Plain:  5,141 images  |  W:       51–375  H:      180–549  |  L
+             NIST-SD301a/FrictionRidge:  4,366 images  |  W:     256–4964  H:     256–5120  |  L, RGB
+                      NIST-SD302b/Slap:  3,796 images  |  W:     256–4992  H:     276–5120  |  L
+                    NIST-SD301b/Latent:  1,200 images  |  W:     268–4437  H:     268–4508  |  L, I;16
+                          FVC2002/DB4A:    800 images  |  W:      288–288  H:      384–384  |  L
+                          FVC2004/DB1A:    800 images  |  W:      640–640  H:      480–480  |  L
+                          FVC2000/DB3A:    800 images  |  W:      448–448  H:      478–478  |  L
+                          FVC2000/DB2A:    800 images  |  W:      256–256  H:      364–364  |  L
+                          FVC2000/DB1A:    800 images  |  W:      300–300  H:      300–300  |  L
+                          FVC2000/DB4A:    800 images  |  W:      240–240  H:      320–320  |  L
+                          FVC2002/DB3A:    800 images  |  W:      300–300  H:      300–300  |  L
+                          FVC2002/DB1A:    800 images  |  W:      388–388  H:      374–374  |  L
+                          FVC2002/DB2A:    800 images  |  W:      296–296  H:      560–560  |  L
+                          FVC2004/DB4A:    800 images  |  W:      288–288  H:      384–384  |  L
+                          FVC2004/DB3A:    800 images  |  W:      300–300  H:      480–480  |  L
+                          FVC2004/DB2A:    800 images  |  W:      328–328  H:      364–364  |  L
+                          FVC2000/DB2B:     80 images  |  W:      256–256  H:      364–364  |  L
+                          FVC2000/DB1B:     80 images  |  W:      300–300  H:      300–300  |  L
+                          FVC2002/DB1B:     80 images  |  W:      388–388  H:      374–374  |  L
+                          FVC2002/DB2B:     80 images  |  W:      296–296  H:      560–560  |  L
+                          FVC2004/DB2B:     80 images  |  W:      328–328  H:      364–364  |  L
+                          FVC2004/DB1B:     80 images  |  W:      640–640  H:      480–480  |  L
+                          FVC2002/DB3B:     80 images  |  W:      300–300  H:      300–300  |  L
+                          FVC2002/DB4B:     80 images  |  W:      288–288  H:      384–384  |  L
+                          FVC2000/DB4B:     80 images  |  W:      240–240  H:      320–320  |  L
+                          FVC2000/DB3B:     80 images  |  W:      448–448  H:      478–478  |  L
+                          FVC2004/DB3B:     80 images  |  W:      300–300  H:      480–480  |  L
+                          FVC2004/DB4B:     80 images  |  W:      288–288  H:      384–384  |  L
+   💾 Saved: /kaggle/working/analysis_output/d1_formats.png
+
+   💾 Saved: /kaggle/working/analysis_output/d1_resolution.png
+
+   💾 Saved: /kaggle/working/analysis_output/d1_resolution_by_sub.png
+
+   💾 Saved: /kaggle/working/analysis_output/d1_intensity.png
+
+   💾 Saved: /kaggle/working/analysis_output/d1_samples.png
+
+   💾 Saved: /kaggle/working/analysis_output/d1_resize_impact.png
+
+   💾 Saved: /kaggle/working/analysis_output/d1_resize_visual.png
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+         DATASET 2: AFR-TRAINING-SYNTHETIC
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+📁 DIRECTORY TREE: afr-training-synthetic
+────────────────────────────────────────────────────────────
+├── 📂 AMSL_SynFP_P2P_v1/ (40,000 images)
+│      [2× other]
+│   └── 📂 aug39k_DL_BN_60+60ep_420x300/ (40,000 images)
+│       ├── 📂 subject001/ (80 images)
+│       ├── 📂 subject002/ (80 images)
+│       ├── 📂 subject003/ (80 images)
+│       ├── 📂 subject004/ (80 images)
+│       ├── 📂 subject005/ (80 images)
+│       ├── 📂 subject006/ (80 images)
+│       ├── 📂 subject007/ (80 images)
+│       ├── 📂 subject008/ (80 images)
+│       ├── 📂 subject009/ (80 images)
+│       ├── 📂 subject010/ (80 images)
+│       ├── 📂 subject011/ (80 images)
+│       ├── 📂 subject012/ (80 images)
+│       ├── 📂 subject013/ (80 images)
+│       ├── 📂 subject014/ (80 images)
+│       ├── 📂 subject015/ (80 images)
+│       ├── 📂 subject016/ (80 images)
+│       ├── 📂 subject017/ (80 images)
+│       ├── 📂 subject018/ (80 images)
+│       ├── 📂 subject019/ (80 images)
+│       ├── 📂 subject020/ (80 images)
+│       ├── 📂 subject021/ (80 images)
+│       ├── 📂 subject022/ (80 images)
+│       ├── 📂 subject023/ (80 images)
+│       ├── 📂 subject024/ (80 images)
+│       ├── 📂 subject025/ (80 images)
+│       ├── 📂 subject026/ (80 images)
+│       ├── 📂 subject027/ (80 images)
+│       ├── 📂 subject028/ (80 images)
+│       ├── 📂 subject029/ (80 images)
+│       ├── 📂 subject030/ (80 images)
+│       ├── 📂 subject031/ (80 images)
+│       ├── 📂 subject032/ (80 images)
+│       ├── 📂 subject033/ (80 images)
+│       ├── 📂 subject034/ (80 images)
+│       ├── 📂 subject035/ (80 images)
+│       ├── 📂 subject036/ (80 images)
+│       ├── 📂 subject037/ (80 images)
+│       ├── 📂 subject038/ (80 images)
+│       ├── 📂 subject039/ (80 images)
+│       ├── 📂 subject040/ (80 images)
+│       ├── 📂 subject041/ (80 images)
+│       ├── 📂 subject042/ (80 images)
+│       ├── 📂 subject043/ (80 images)
+│       ├── 📂 subject044/ (80 images)
+│       ├── 📂 subject045/ (80 images)
+│       ├── 📂 subject046/ (80 images)
+│       ├── 📂 subject047/ (80 images)
+│       ├── 📂 subject048/ (80 images)
+│       ├── 📂 subject049/ (80 images)
+│       ├── 📂 subject050/ (80 images)
+│       ├── 📂 subject051/ (80 images)
+│       ├── 📂 subject052/ (80 images)
+│       ├── 📂 subject053/ (80 images)
+│       ├── 📂 subject054/ (80 images)
+│       ├── 📂 subject055/ (80 images)
+│       ├── 📂 subject056/ (80 images)
+│       ├── 📂 subject057/ (80 images)
+│       ├── 📂 subject058/ (80 images)
+│       ├── 📂 subject059/ (80 images)
+│       ├── 📂 subject060/ (80 images)
+│       ├── 📂 subject061/ (80 images)
+│       ├── 📂 subject062/ (80 images)
+│       ├── 📂 subject063/ (80 images)
+│       ├── 📂 subject064/ (80 images)
+│       ├── 📂 subject065/ (80 images)
+│       ├── 📂 subject066/ (80 images)
+│       ├── 📂 subject067/ (80 images)
+│       ├── 📂 subject068/ (80 images)
+│       ├── 📂 subject069/ (80 images)
+│       ├── 📂 subject070/ (80 images)
+│       ├── 📂 subject071/ (80 images)
+│       ├── 📂 subject072/ (80 images)
+│       ├── 📂 subject073/ (80 images)
+│       ├── 📂 subject074/ (80 images)
+│       ├── 📂 subject075/ (80 images)
+│       ├── 📂 subject076/ (80 images)
+│       ├── 📂 subject077/ (80 images)
+│       ├── 📂 subject078/ (80 images)
+│       ├── 📂 subject079/ (80 images)
+│       ├── 📂 subject080/ (80 images)
+│       ├── 📂 subject081/ (80 images)
+│       ├── 📂 subject082/ (80 images)
+│       ├── 📂 subject083/ (80 images)
+│       ├── 📂 subject084/ (80 images)
+│       ├── 📂 subject085/ (80 images)
+│       ├── 📂 subject086/ (80 images)
+│       ├── 📂 subject087/ (80 images)
+│       ├── 📂 subject088/ (80 images)
+│       ├── 📂 subject089/ (80 images)
+│       ├── 📂 subject090/ (80 images)
+│       ├── 📂 subject091/ (80 images)
+│       ├── 📂 subject092/ (80 images)
+│       ├── 📂 subject093/ (80 images)
+│       ├── 📂 subject094/ (80 images)
+│       ├── 📂 subject095/ (80 images)
+│       ├── 📂 subject096/ (80 images)
+│       ├── 📂 subject097/ (80 images)
+│       ├── 📂 subject098/ (80 images)
+│       ├── 📂 subject099/ (80 images)
+│       ├── 📂 subject100/ (80 images)
+│       ├── 📂 subject101/ (80 images)
+│       ├── 📂 subject102/ (80 images)
+│       ├── 📂 subject103/ (80 images)
+│       ├── 📂 subject104/ (80 images)
+│       ├── 📂 subject105/ (80 images)
+│       ├── 📂 subject106/ (80 images)
+│       ├── 📂 subject107/ (80 images)
+│       ├── 📂 subject108/ (80 images)
+│       ├── 📂 subject109/ (80 images)
+│       ├── 📂 subject110/ (80 images)
+│       ├── 📂 subject111/ (80 images)
+│       ├── 📂 subject112/ (80 images)
+│       ├── 📂 subject113/ (80 images)
+│       ├── 📂 subject114/ (80 images)
+│       ├── 📂 subject115/ (80 images)
+│       ├── 📂 subject116/ (80 images)
+│       ├── 📂 subject117/ (80 images)
+│       ├── 📂 subject118/ (80 images)
+│       ├── 📂 subject119/ (80 images)
+│       ├── 📂 subject120/ (80 images)
+│       ├── 📂 subject121/ (80 images)
+│       ├── 📂 subject122/ (80 images)
+│       ├── 📂 subject123/ (80 images)
+│       ├── 📂 subject124/ (80 images)
+│       ├── 📂 subject125/ (80 images)
+│       ├── 📂 subject126/ (80 images)
+│       ├── 📂 subject127/ (80 images)
+│       ├── 📂 subject128/ (80 images)
+│       ├── 📂 subject129/ (80 images)
+│       ├── 📂 subject130/ (80 images)
+│       ├── 📂 subject131/ (80 images)
+│       ├── 📂 subject132/ (80 images)
+│       ├── 📂 subject133/ (80 images)
+│       ├── 📂 subject134/ (80 images)
+│       ├── 📂 subject135/ (80 images)
+│       ├── 📂 subject136/ (80 images)
+│       ├── 📂 subject137/ (80 images)
+│       ├── 📂 subject138/ (80 images)
+│       ├── 📂 subject139/ (80 images)
+│       ├── 📂 subject140/ (80 images)
+│       ├── 📂 subject141/ (80 images)
+│       ├── 📂 subject142/ (80 images)
+│       ├── 📂 subject143/ (80 images)
+│       ├── 📂 subject144/ (80 images)
+│       ├── 📂 subject145/ (80 images)
+│       ├── 📂 subject146/ (80 images)
+│       ├── 📂 subject147/ (80 images)
+│       ├── 📂 subject148/ (80 images)
+│       ├── 📂 subject149/ (80 images)
+│       ├── 📂 subject150/ (80 images)
+│       ├── 📂 subject151/ (80 images)
+│       ├── 📂 subject152/ (80 images)
+│       ├── 📂 subject153/ (80 images)
+│       ├── 📂 subject154/ (80 images)
+│       ├── 📂 subject155/ (80 images)
+│       ├── 📂 subject156/ (80 images)
+│       ├── 📂 subject157/ (80 images)
+│       ├── 📂 subject158/ (80 images)
+│       ├── 📂 subject159/ (80 images)
+│       ├── 📂 subject160/ (80 images)
+│       ├── 📂 subject161/ (80 images)
+│       ├── 📂 subject162/ (80 images)
+│       ├── 📂 subject163/ (80 images)
+│       ├── 📂 subject164/ (80 images)
+│       ├── 📂 subject165/ (80 images)
+│       ├── 📂 subject166/ (80 images)
+│       ├── 📂 subject167/ (80 images)
+│       ├── 📂 subject168/ (80 images)
+│       ├── 📂 subject169/ (80 images)
+│       ├── 📂 subject170/ (80 images)
+│       ├── 📂 subject171/ (80 images)
+│       ├── 📂 subject172/ (80 images)
+│       ├── 📂 subject173/ (80 images)
+│       ├── 📂 subject174/ (80 images)
+│       ├── 📂 subject175/ (80 images)
+│       ├── 📂 subject176/ (80 images)
+│       ├── 📂 subject177/ (80 images)
+│       ├── 📂 subject178/ (80 images)
+│       ├── 📂 subject179/ (80 images)
+│       ├── 📂 subject180/ (80 images)
+│       ├── 📂 subject181/ (80 images)
+│       ├── 📂 subject182/ (80 images)
+│       ├── 📂 subject183/ (80 images)
+│       ├── 📂 subject184/ (80 images)
+│       ├── 📂 subject185/ (80 images)
+│       ├── 📂 subject186/ (80 images)
+│       ├── 📂 subject187/ (80 images)
+│       ├── 📂 subject188/ (80 images)
+│       ├── 📂 subject189/ (80 images)
+│       ├── 📂 subject190/ (80 images)
+│       ├── 📂 subject191/ (80 images)
+│       ├── 📂 subject192/ (80 images)
+│       ├── 📂 subject193/ (80 images)
+│       ├── 📂 subject194/ (80 images)
+│       ├── 📂 subject195/ (80 images)
+│       ├── 📂 subject196/ (80 images)
+│       ├── 📂 subject197/ (80 images)
+│       ├── 📂 subject198/ (80 images)
+│       ├── 📂 subject199/ (80 images)
+│       ├── 📂 subject200/ (80 images)
+│       ├── 📂 subject201/ (80 images)
+│       ├── 📂 subject202/ (80 images)
+│       ├── 📂 subject203/ (80 images)
+│       ├── 📂 subject204/ (80 images)
+│       ├── 📂 subject205/ (80 images)
+│       ├── 📂 subject206/ (80 images)
+│       ├── 📂 subject207/ (80 images)
+│       ├── 📂 subject208/ (80 images)
+│       ├── 📂 subject209/ (80 images)
+│       ├── 📂 subject210/ (80 images)
+│       ├── 📂 subject211/ (80 images)
+│       ├── 📂 subject212/ (80 images)
+│       ├── 📂 subject213/ (80 images)
+│       ├── 📂 subject214/ (80 images)
+│       ├── 📂 subject215/ (80 images)
+│       ├── 📂 subject216/ (80 images)
+│       ├── 📂 subject217/ (80 images)
+│       ├── 📂 subject218/ (80 images)
+│       ├── 📂 subject219/ (80 images)
+│       ├── 📂 subject220/ (80 images)
+│       ├── 📂 subject221/ (80 images)
+│       ├── 📂 subject222/ (80 images)
+│       ├── 📂 subject223/ (80 images)
+│       ├── 📂 subject224/ (80 images)
+│       ├── 📂 subject225/ (80 images)
+│       ├── 📂 subject226/ (80 images)
+│       ├── 📂 subject227/ (80 images)
+│       ├── 📂 subject228/ (80 images)
+│       ├── 📂 subject229/ (80 images)
+│       ├── 📂 subject230/ (80 images)
+│       ├── 📂 subject231/ (80 images)
+│       ├── 📂 subject232/ (80 images)
+│       ├── 📂 subject233/ (80 images)
+│       ├── 📂 subject234/ (80 images)
+│       ├── 📂 subject235/ (80 images)
+│       ├── 📂 subject236/ (80 images)
+│       ├── 📂 subject237/ (80 images)
+│       ├── 📂 subject238/ (80 images)
+│       ├── 📂 subject239/ (80 images)
+│       ├── 📂 subject240/ (80 images)
+│       ├── 📂 subject241/ (80 images)
+│       ├── 📂 subject242/ (80 images)
+│       ├── 📂 subject243/ (80 images)
+│       ├── 📂 subject244/ (80 images)
+│       ├── 📂 subject245/ (80 images)
+│       ├── 📂 subject246/ (80 images)
+│       ├── 📂 subject247/ (80 images)
+│       ├── 📂 subject248/ (80 images)
+│       ├── 📂 subject249/ (80 images)
+│       ├── 📂 subject250/ (80 images)
+│       ├── 📂 subject251/ (80 images)
+│       ├── 📂 subject252/ (80 images)
+│       ├── 📂 subject253/ (80 images)
+│       ├── 📂 subject254/ (80 images)
+│       ├── 📂 subject255/ (80 images)
+│       ├── 📂 subject256/ (80 images)
+│       ├── 📂 subject257/ (80 images)
+│       ├── 📂 subject258/ (80 images)
+│       ├── 📂 subject259/ (80 images)
+│       ├── 📂 subject260/ (80 images)
+│       ├── 📂 subject261/ (80 images)
+│       ├── 📂 subject262/ (80 images)
+│       ├── 📂 subject263/ (80 images)
+│       ├── 📂 subject264/ (80 images)
+│       ├── 📂 subject265/ (80 images)
+│       ├── 📂 subject266/ (80 images)
+│       ├── 📂 subject267/ (80 images)
+│       ├── 📂 subject268/ (80 images)
+│       ├── 📂 subject269/ (80 images)
+│       ├── 📂 subject270/ (80 images)
+│       ├── 📂 subject271/ (80 images)
+│       ├── 📂 subject272/ (80 images)
+│       ├── 📂 subject273/ (80 images)
+│       ├── 📂 subject274/ (80 images)
+│       ├── 📂 subject275/ (80 images)
+│       ├── 📂 subject276/ (80 images)
+│       ├── 📂 subject277/ (80 images)
+│       ├── 📂 subject278/ (80 images)
+│       ├── 📂 subject279/ (80 images)
+│       ├── 📂 subject280/ (80 images)
+│       ├── 📂 subject281/ (80 images)
+│       ├── 📂 subject282/ (80 images)
+│       ├── 📂 subject283/ (80 images)
+│       ├── 📂 subject284/ (80 images)
+│       ├── 📂 subject285/ (80 images)
+│       ├── 📂 subject286/ (80 images)
+│       ├── 📂 subject287/ (80 images)
+│       ├── 📂 subject288/ (80 images)
+│       ├── 📂 subject289/ (80 images)
+│       ├── 📂 subject290/ (80 images)
+│       ├── 📂 subject291/ (80 images)
+│       ├── 📂 subject292/ (80 images)
+│       ├── 📂 subject293/ (80 images)
+│       ├── 📂 subject294/ (80 images)
+│       ├── 📂 subject295/ (80 images)
+│       ├── 📂 subject296/ (80 images)
+│       ├── 📂 subject297/ (80 images)
+│       ├── 📂 subject298/ (80 images)
+│       ├── 📂 subject299/ (80 images)
+│       ├── 📂 subject300/ (80 images)
+│       ├── 📂 subject301/ (80 images)
+│       ├── 📂 subject302/ (80 images)
+│       ├── 📂 subject303/ (80 images)
+│       ├── 📂 subject304/ (80 images)
+│       ├── 📂 subject305/ (80 images)
+│       ├── 📂 subject306/ (80 images)
+│       ├── 📂 subject307/ (80 images)
+│       ├── 📂 subject308/ (80 images)
+│       ├── 📂 subject309/ (80 images)
+│       ├── 📂 subject310/ (80 images)
+│       ├── 📂 subject311/ (80 images)
+│       ├── 📂 subject312/ (80 images)
+│       ├── 📂 subject313/ (80 images)
+│       ├── 📂 subject314/ (80 images)
+│       ├── 📂 subject315/ (80 images)
+│       ├── 📂 subject316/ (80 images)
+│       ├── 📂 subject317/ (80 images)
+│       ├── 📂 subject318/ (80 images)
+│       ├── 📂 subject319/ (80 images)
+│       ├── 📂 subject320/ (80 images)
+│       ├── 📂 subject321/ (80 images)
+│       ├── 📂 subject322/ (80 images)
+│       ├── 📂 subject323/ (80 images)
+│       ├── 📂 subject324/ (80 images)
+│       ├── 📂 subject325/ (80 images)
+│       ├── 📂 subject326/ (80 images)
+│       ├── 📂 subject327/ (80 images)
+│       ├── 📂 subject328/ (80 images)
+│       ├── 📂 subject329/ (80 images)
+│       ├── 📂 subject330/ (80 images)
+│       ├── 📂 subject331/ (80 images)
+│       ├── 📂 subject332/ (80 images)
+│       ├── 📂 subject333/ (80 images)
+│       ├── 📂 subject334/ (80 images)
+│       ├── 📂 subject335/ (80 images)
+│       ├── 📂 subject336/ (80 images)
+│       ├── 📂 subject337/ (80 images)
+│       ├── 📂 subject338/ (80 images)
+│       ├── 📂 subject339/ (80 images)
+│       ├── 📂 subject340/ (80 images)
+│       ├── 📂 subject341/ (80 images)
+│       ├── 📂 subject342/ (80 images)
+│       ├── 📂 subject343/ (80 images)
+│       ├── 📂 subject344/ (80 images)
+│       ├── 📂 subject345/ (80 images)
+│       ├── 📂 subject346/ (80 images)
+│       ├── 📂 subject347/ (80 images)
+│       ├── 📂 subject348/ (80 images)
+│       ├── 📂 subject349/ (80 images)
+│       ├── 📂 subject350/ (80 images)
+│       ├── 📂 subject351/ (80 images)
+│       ├── 📂 subject352/ (80 images)
+│       ├── 📂 subject353/ (80 images)
+│       ├── 📂 subject354/ (80 images)
+│       ├── 📂 subject355/ (80 images)
+│       ├── 📂 subject356/ (80 images)
+│       ├── 📂 subject357/ (80 images)
+│       ├── 📂 subject358/ (80 images)
+│       ├── 📂 subject359/ (80 images)
+│       ├── 📂 subject360/ (80 images)
+│       ├── 📂 subject361/ (80 images)
+│       ├── 📂 subject362/ (80 images)
+│       ├── 📂 subject363/ (80 images)
+│       ├── 📂 subject364/ (80 images)
+│       ├── 📂 subject365/ (80 images)
+│       ├── 📂 subject366/ (80 images)
+│       ├── 📂 subject367/ (80 images)
+│       ├── 📂 subject368/ (80 images)
+│       ├── 📂 subject369/ (80 images)
+│       ├── 📂 subject370/ (80 images)
+│       ├── 📂 subject371/ (80 images)
+│       ├── 📂 subject372/ (80 images)
+│       ├── 📂 subject373/ (80 images)
+│       ├── 📂 subject374/ (80 images)
+│       ├── 📂 subject375/ (80 images)
+│       ├── 📂 subject376/ (80 images)
+│       ├── 📂 subject377/ (80 images)
+│       ├── 📂 subject378/ (80 images)
+│       ├── 📂 subject379/ (80 images)
+│       ├── 📂 subject380/ (80 images)
+│       ├── 📂 subject381/ (80 images)
+│       ├── 📂 subject382/ (80 images)
+│       ├── 📂 subject383/ (80 images)
+│       ├── 📂 subject384/ (80 images)
+│       ├── 📂 subject385/ (80 images)
+│       ├── 📂 subject386/ (80 images)
+│       ├── 📂 subject387/ (80 images)
+│       ├── 📂 subject388/ (80 images)
+│       ├── 📂 subject389/ (80 images)
+│       ├── 📂 subject390/ (80 images)
+│       ├── 📂 subject391/ (80 images)
+│       ├── 📂 subject392/ (80 images)
+│       ├── 📂 subject393/ (80 images)
+│       ├── 📂 subject394/ (80 images)
+│       ├── 📂 subject395/ (80 images)
+│       ├── 📂 subject396/ (80 images)
+│       ├── 📂 subject397/ (80 images)
+│       ├── 📂 subject398/ (80 images)
+│       ├── 📂 subject399/ (80 images)
+│       ├── 📂 subject400/ (80 images)
+│       ├── 📂 subject401/ (80 images)
+│       ├── 📂 subject402/ (80 images)
+│       ├── 📂 subject403/ (80 images)
+│       ├── 📂 subject404/ (80 images)
+│       ├── 📂 subject405/ (80 images)
+│       ├── 📂 subject406/ (80 images)
+│       ├── 📂 subject407/ (80 images)
+│       ├── 📂 subject408/ (80 images)
+│       ├── 📂 subject409/ (80 images)
+│       ├── 📂 subject410/ (80 images)
+│       ├── 📂 subject411/ (80 images)
+│       ├── 📂 subject412/ (80 images)
+│       ├── 📂 subject413/ (80 images)
+│       ├── 📂 subject414/ (80 images)
+│       ├── 📂 subject415/ (80 images)
+│       ├── 📂 subject416/ (80 images)
+│       ├── 📂 subject417/ (80 images)
+│       ├── 📂 subject418/ (80 images)
+│       ├── 📂 subject419/ (80 images)
+│       ├── 📂 subject420/ (80 images)
+│       ├── 📂 subject421/ (80 images)
+│       ├── 📂 subject422/ (80 images)
+│       ├── 📂 subject423/ (80 images)
+│       ├── 📂 subject424/ (80 images)
+│       ├── 📂 subject425/ (80 images)
+│       ├── 📂 subject426/ (80 images)
+│       ├── 📂 subject427/ (80 images)
+│       ├── 📂 subject428/ (80 images)
+│       ├── 📂 subject429/ (80 images)
+│       ├── 📂 subject430/ (80 images)
+│       ├── 📂 subject431/ (80 images)
+│       ├── 📂 subject432/ (80 images)
+│       ├── 📂 subject433/ (80 images)
+│       ├── 📂 subject434/ (80 images)
+│       ├── 📂 subject435/ (80 images)
+│       ├── 📂 subject436/ (80 images)
+│       ├── 📂 subject437/ (80 images)
+│       ├── 📂 subject438/ (80 images)
+│       ├── 📂 subject439/ (80 images)
+│       ├── 📂 subject440/ (80 images)
+│       ├── 📂 subject441/ (80 images)
+│       ├── 📂 subject442/ (80 images)
+│       ├── 📂 subject443/ (80 images)
+│       ├── 📂 subject444/ (80 images)
+│       ├── 📂 subject445/ (80 images)
+│       ├── 📂 subject446/ (80 images)
+│       ├── 📂 subject447/ (80 images)
+│       ├── 📂 subject448/ (80 images)
+│       ├── 📂 subject449/ (80 images)
+│       ├── 📂 subject450/ (80 images)
+│       ├── 📂 subject451/ (80 images)
+│       ├── 📂 subject452/ (80 images)
+│       ├── 📂 subject453/ (80 images)
+│       ├── 📂 subject454/ (80 images)
+│       ├── 📂 subject455/ (80 images)
+│       ├── 📂 subject456/ (80 images)
+│       ├── 📂 subject457/ (80 images)
+│       ├── 📂 subject458/ (80 images)
+│       ├── 📂 subject459/ (80 images)
+│       ├── 📂 subject460/ (80 images)
+│       ├── 📂 subject461/ (80 images)
+│       ├── 📂 subject462/ (80 images)
+│       ├── 📂 subject463/ (80 images)
+│       ├── 📂 subject464/ (80 images)
+│       ├── 📂 subject465/ (80 images)
+│       ├── 📂 subject466/ (80 images)
+│       ├── 📂 subject467/ (80 images)
+│       ├── 📂 subject468/ (80 images)
+│       ├── 📂 subject469/ (80 images)
+│       ├── 📂 subject470/ (80 images)
+│       ├── 📂 subject471/ (80 images)
+│       ├── 📂 subject472/ (80 images)
+│       ├── 📂 subject473/ (80 images)
+│       ├── 📂 subject474/ (80 images)
+│       ├── 📂 subject475/ (80 images)
+│       ├── 📂 subject476/ (80 images)
+│       ├── 📂 subject477/ (80 images)
+│       ├── 📂 subject478/ (80 images)
+│       ├── 📂 subject479/ (80 images)
+│       ├── 📂 subject480/ (80 images)
+│       ├── 📂 subject481/ (80 images)
+│       ├── 📂 subject482/ (80 images)
+│       ├── 📂 subject483/ (80 images)
+│       ├── 📂 subject484/ (80 images)
+│       ├── 📂 subject485/ (80 images)
+│       ├── 📂 subject486/ (80 images)
+│       ├── 📂 subject487/ (80 images)
+│       ├── 📂 subject488/ (80 images)
+│       ├── 📂 subject489/ (80 images)
+│       ├── 📂 subject490/ (80 images)
+│       ├── 📂 subject491/ (80 images)
+│       ├── 📂 subject492/ (80 images)
+│       ├── 📂 subject493/ (80 images)
+│       ├── 📂 subject494/ (80 images)
+│       ├── 📂 subject495/ (80 images)
+│       ├── 📂 subject496/ (80 images)
+│       ├── 📂 subject497/ (80 images)
+│       ├── 📂 subject498/ (80 images)
+│       ├── 📂 subject499/ (80 images)
+│       └── 📂 subject500/ (80 images)
+├── 📂 AMSL_SynFP_P2P_v2/ (40,000 images)
+│      [2× other]
+│   └── 📂 aug39k_PM_IN_15ep_420x300/ (40,000 images)
+│       ├── 📂 subject001/ (80 images)
+│       ├── 📂 subject002/ (80 images)
+│       ├── 📂 subject003/ (80 images)
+│       ├── 📂 subject004/ (80 images)
+│       ├── 📂 subject005/ (80 images)
+│       ├── 📂 subject006/ (80 images)
+│       ├── 📂 subject007/ (80 images)
+│       ├── 📂 subject008/ (80 images)
+│       ├── 📂 subject009/ (80 images)
+│       ├── 📂 subject010/ (80 images)
+│       ├── 📂 subject011/ (80 images)
+│       ├── 📂 subject012/ (80 images)
+│       ├── 📂 subject013/ (80 images)
+│       ├── 📂 subject014/ (80 images)
+│       ├── 📂 subject015/ (80 images)
+│       ├── 📂 subject016/ (80 images)
+│       ├── 📂 subject017/ (80 images)
+│       ├── 📂 subject018/ (80 images)
+│       ├── 📂 subject019/ (80 images)
+│       ├── 📂 subject020/ (80 images)
+│       ├── 📂 subject021/ (80 images)
+│       ├── 📂 subject022/ (80 images)
+│       ├── 📂 subject023/ (80 images)
+│       ├── 📂 subject024/ (80 images)
+│       ├── 📂 subject025/ (80 images)
+│       ├── 📂 subject026/ (80 images)
+│       ├── 📂 subject027/ (80 images)
+│       ├── 📂 subject028/ (80 images)
+│       ├── 📂 subject029/ (80 images)
+│       ├── 📂 subject030/ (80 images)
+│       ├── 📂 subject031/ (80 images)
+│       ├── 📂 subject032/ (80 images)
+│       ├── 📂 subject033/ (80 images)
+│       ├── 📂 subject034/ (80 images)
+│       ├── 📂 subject035/ (80 images)
+│       ├── 📂 subject036/ (80 images)
+│       ├── 📂 subject037/ (80 images)
+│       ├── 📂 subject038/ (80 images)
+│       ├── 📂 subject039/ (80 images)
+│       ├── 📂 subject040/ (80 images)
+│       ├── 📂 subject041/ (80 images)
+│       ├── 📂 subject042/ (80 images)
+│       ├── 📂 subject043/ (80 images)
+│       ├── 📂 subject044/ (80 images)
+│       ├── 📂 subject045/ (80 images)
+│       ├── 📂 subject046/ (80 images)
+│       ├── 📂 subject047/ (80 images)
+│       ├── 📂 subject048/ (80 images)
+│       ├── 📂 subject049/ (80 images)
+│       ├── 📂 subject050/ (80 images)
+│       ├── 📂 subject051/ (80 images)
+│       ├── 📂 subject052/ (80 images)
+│       ├── 📂 subject053/ (80 images)
+│       ├── 📂 subject054/ (80 images)
+│       ├── 📂 subject055/ (80 images)
+│       ├── 📂 subject056/ (80 images)
+│       ├── 📂 subject057/ (80 images)
+│       ├── 📂 subject058/ (80 images)
+│       ├── 📂 subject059/ (80 images)
+│       ├── 📂 subject060/ (80 images)
+│       ├── 📂 subject061/ (80 images)
+│       ├── 📂 subject062/ (80 images)
+│       ├── 📂 subject063/ (80 images)
+│       ├── 📂 subject064/ (80 images)
+│       ├── 📂 subject065/ (80 images)
+│       ├── 📂 subject066/ (80 images)
+│       ├── 📂 subject067/ (80 images)
+│       ├── 📂 subject068/ (80 images)
+│       ├── 📂 subject069/ (80 images)
+│       ├── 📂 subject070/ (80 images)
+│       ├── 📂 subject071/ (80 images)
+│       ├── 📂 subject072/ (80 images)
+│       ├── 📂 subject073/ (80 images)
+│       ├── 📂 subject074/ (80 images)
+│       ├── 📂 subject075/ (80 images)
+│       ├── 📂 subject076/ (80 images)
+│       ├── 📂 subject077/ (80 images)
+│       ├── 📂 subject078/ (80 images)
+│       ├── 📂 subject079/ (80 images)
+│       ├── 📂 subject080/ (80 images)
+│       ├── 📂 subject081/ (80 images)
+│       ├── 📂 subject082/ (80 images)
+│       ├── 📂 subject083/ (80 images)
+│       ├── 📂 subject084/ (80 images)
+│       ├── 📂 subject085/ (80 images)
+│       ├── 📂 subject086/ (80 images)
+│       ├── 📂 subject087/ (80 images)
+│       ├── 📂 subject088/ (80 images)
+│       ├── 📂 subject089/ (80 images)
+│       ├── 📂 subject090/ (80 images)
+│       ├── 📂 subject091/ (80 images)
+│       ├── 📂 subject092/ (80 images)
+│       ├── 📂 subject093/ (80 images)
+│       ├── 📂 subject094/ (80 images)
+│       ├── 📂 subject095/ (80 images)
+│       ├── 📂 subject096/ (80 images)
+│       ├── 📂 subject097/ (80 images)
+│       ├── 📂 subject098/ (80 images)
+│       ├── 📂 subject099/ (80 images)
+│       ├── 📂 subject100/ (80 images)
+│       ├── 📂 subject101/ (80 images)
+│       ├── 📂 subject102/ (80 images)
+│       ├── 📂 subject103/ (80 images)
+│       ├── 📂 subject104/ (80 images)
+│       ├── 📂 subject105/ (80 images)
+│       ├── 📂 subject106/ (80 images)
+│       ├── 📂 subject107/ (80 images)
+│       ├── 📂 subject108/ (80 images)
+│       ├── 📂 subject109/ (80 images)
+│       ├── 📂 subject110/ (80 images)
+│       ├── 📂 subject111/ (80 images)
+│       ├── 📂 subject112/ (80 images)
+│       ├── 📂 subject113/ (80 images)
+│       ├── 📂 subject114/ (80 images)
+│       ├── 📂 subject115/ (80 images)
+│       ├── 📂 subject116/ (80 images)
+│       ├── 📂 subject117/ (80 images)
+│       ├── 📂 subject118/ (80 images)
+│       ├── 📂 subject119/ (80 images)
+│       ├── 📂 subject120/ (80 images)
+│       ├── 📂 subject121/ (80 images)
+│       ├── 📂 subject122/ (80 images)
+│       ├── 📂 subject123/ (80 images)
+│       ├── 📂 subject124/ (80 images)
+│       ├── 📂 subject125/ (80 images)
+│       ├── 📂 subject126/ (80 images)
+│       ├── 📂 subject127/ (80 images)
+│       ├── 📂 subject128/ (80 images)
+│       ├── 📂 subject129/ (80 images)
+│       ├── 📂 subject130/ (80 images)
+│       ├── 📂 subject131/ (80 images)
+│       ├── 📂 subject132/ (80 images)
+│       ├── 📂 subject133/ (80 images)
+│       ├── 📂 subject134/ (80 images)
+│       ├── 📂 subject135/ (80 images)
+│       ├── 📂 subject136/ (80 images)
+│       ├── 📂 subject137/ (80 images)
+│       ├── 📂 subject138/ (80 images)
+│       ├── 📂 subject139/ (80 images)
+│       ├── 📂 subject140/ (80 images)
+│       ├── 📂 subject141/ (80 images)
+│       ├── 📂 subject142/ (80 images)
+│       ├── 📂 subject143/ (80 images)
+│       ├── 📂 subject144/ (80 images)
+│       ├── 📂 subject145/ (80 images)
+│       ├── 📂 subject146/ (80 images)
+│       ├── 📂 subject147/ (80 images)
+│       ├── 📂 subject148/ (80 images)
+│       ├── 📂 subject149/ (80 images)
+│       ├── 📂 subject150/ (80 images)
+│       ├── 📂 subject151/ (80 images)
+│       ├── 📂 subject152/ (80 images)
+│       ├── 📂 subject153/ (80 images)
+│       ├── 📂 subject154/ (80 images)
+│       ├── 📂 subject155/ (80 images)
+│       ├── 📂 subject156/ (80 images)
+│       ├── 📂 subject157/ (80 images)
+│       ├── 📂 subject158/ (80 images)
+│       ├── 📂 subject159/ (80 images)
+│       ├── 📂 subject160/ (80 images)
+│       ├── 📂 subject161/ (80 images)
+│       ├── 📂 subject162/ (80 images)
+│       ├── 📂 subject163/ (80 images)
+│       ├── 📂 subject164/ (80 images)
+│       ├── 📂 subject165/ (80 images)
+│       ├── 📂 subject166/ (80 images)
+│       ├── 📂 subject167/ (80 images)
+│       ├── 📂 subject168/ (80 images)
+│       ├── 📂 subject169/ (80 images)
+│       ├── 📂 subject170/ (80 images)
+│       ├── 📂 subject171/ (80 images)
+│       ├── 📂 subject172/ (80 images)
+│       ├── 📂 subject173/ (80 images)
+│       ├── 📂 subject174/ (80 images)
+│       ├── 📂 subject175/ (80 images)
+│       ├── 📂 subject176/ (80 images)
+│       ├── 📂 subject177/ (80 images)
+│       ├── 📂 subject178/ (80 images)
+│       ├── 📂 subject179/ (80 images)
+│       ├── 📂 subject180/ (80 images)
+│       ├── 📂 subject181/ (80 images)
+│       ├── 📂 subject182/ (80 images)
+│       ├── 📂 subject183/ (80 images)
+│       ├── 📂 subject184/ (80 images)
+│       ├── 📂 subject185/ (80 images)
+│       ├── 📂 subject186/ (80 images)
+│       ├── 📂 subject187/ (80 images)
+│       ├── 📂 subject188/ (80 images)
+│       ├── 📂 subject189/ (80 images)
+│       ├── 📂 subject190/ (80 images)
+│       ├── 📂 subject191/ (80 images)
+│       ├── 📂 subject192/ (80 images)
+│       ├── 📂 subject193/ (80 images)
+│       ├── 📂 subject194/ (80 images)
+│       ├── 📂 subject195/ (80 images)
+│       ├── 📂 subject196/ (80 images)
+│       ├── 📂 subject197/ (80 images)
+│       ├── 📂 subject198/ (80 images)
+│       ├── 📂 subject199/ (80 images)
+│       ├── 📂 subject200/ (80 images)
+│       ├── 📂 subject201/ (80 images)
+│       ├── 📂 subject202/ (80 images)
+│       ├── 📂 subject203/ (80 images)
+│       ├── 📂 subject204/ (80 images)
+│       ├── 📂 subject205/ (80 images)
+│       ├── 📂 subject206/ (80 images)
+│       ├── 📂 subject207/ (80 images)
+│       ├── 📂 subject208/ (80 images)
+│       ├── 📂 subject209/ (80 images)
+│       ├── 📂 subject210/ (80 images)
+│       ├── 📂 subject211/ (80 images)
+│       ├── 📂 subject212/ (80 images)
+│       ├── 📂 subject213/ (80 images)
+│       ├── 📂 subject214/ (80 images)
+│       ├── 📂 subject215/ (80 images)
+│       ├── 📂 subject216/ (80 images)
+│       ├── 📂 subject217/ (80 images)
+│       ├── 📂 subject218/ (80 images)
+│       ├── 📂 subject219/ (80 images)
+│       ├── 📂 subject220/ (80 images)
+│       ├── 📂 subject221/ (80 images)
+│       ├── 📂 subject222/ (80 images)
+│       ├── 📂 subject223/ (80 images)
+│       ├── 📂 subject224/ (80 images)
+│       ├── 📂 subject225/ (80 images)
+│       ├── 📂 subject226/ (80 images)
+│       ├── 📂 subject227/ (80 images)
+│       ├── 📂 subject228/ (80 images)
+│       ├── 📂 subject229/ (80 images)
+│       ├── 📂 subject230/ (80 images)
+│       ├── 📂 subject231/ (80 images)
+│       ├── 📂 subject232/ (80 images)
+│       ├── 📂 subject233/ (80 images)
+│       ├── 📂 subject234/ (80 images)
+│       ├── 📂 subject235/ (80 images)
+│       ├── 📂 subject236/ (80 images)
+│       ├── 📂 subject237/ (80 images)
+│       ├── 📂 subject238/ (80 images)
+│       ├── 📂 subject239/ (80 images)
+│       ├── 📂 subject240/ (80 images)
+│       ├── 📂 subject241/ (80 images)
+│       ├── 📂 subject242/ (80 images)
+│       ├── 📂 subject243/ (80 images)
+│       ├── 📂 subject244/ (80 images)
+│       ├── 📂 subject245/ (80 images)
+│       ├── 📂 subject246/ (80 images)
+│       ├── 📂 subject247/ (80 images)
+│       ├── 📂 subject248/ (80 images)
+│       ├── 📂 subject249/ (80 images)
+│       ├── 📂 subject250/ (80 images)
+│       ├── 📂 subject251/ (80 images)
+│       ├── 📂 subject252/ (80 images)
+│       ├── 📂 subject253/ (80 images)
+│       ├── 📂 subject254/ (80 images)
+│       ├── 📂 subject255/ (80 images)
+│       ├── 📂 subject256/ (80 images)
+│       ├── 📂 subject257/ (80 images)
+│       ├── 📂 subject258/ (80 images)
+│       ├── 📂 subject259/ (80 images)
+│       ├── 📂 subject260/ (80 images)
+│       ├── 📂 subject261/ (80 images)
+│       ├── 📂 subject262/ (80 images)
+│       ├── 📂 subject263/ (80 images)
+│       ├── 📂 subject264/ (80 images)
+│       ├── 📂 subject265/ (80 images)
+│       ├── 📂 subject266/ (80 images)
+│       ├── 📂 subject267/ (80 images)
+│       ├── 📂 subject268/ (80 images)
+│       ├── 📂 subject269/ (80 images)
+│       ├── 📂 subject270/ (80 images)
+│       ├── 📂 subject271/ (80 images)
+│       ├── 📂 subject272/ (80 images)
+│       ├── 📂 subject273/ (80 images)
+│       ├── 📂 subject274/ (80 images)
+│       ├── 📂 subject275/ (80 images)
+│       ├── 📂 subject276/ (80 images)
+│       ├── 📂 subject277/ (80 images)
+│       ├── 📂 subject278/ (80 images)
+│       ├── 📂 subject279/ (80 images)
+│       ├── 📂 subject280/ (80 images)
+│       ├── 📂 subject281/ (80 images)
+│       ├── 📂 subject282/ (80 images)
+│       ├── 📂 subject283/ (80 images)
+│       ├── 📂 subject284/ (80 images)
+│       ├── 📂 subject285/ (80 images)
+│       ├── 📂 subject286/ (80 images)
+│       ├── 📂 subject287/ (80 images)
+│       ├── 📂 subject288/ (80 images)
+│       ├── 📂 subject289/ (80 images)
+│       ├── 📂 subject290/ (80 images)
+│       ├── 📂 subject291/ (80 images)
+│       ├── 📂 subject292/ (80 images)
+│       ├── 📂 subject293/ (80 images)
+│       ├── 📂 subject294/ (80 images)
+│       ├── 📂 subject295/ (80 images)
+│       ├── 📂 subject296/ (80 images)
+│       ├── 📂 subject297/ (80 images)
+│       ├── 📂 subject298/ (80 images)
+│       ├── 📂 subject299/ (80 images)
+│       ├── 📂 subject300/ (80 images)
+│       ├── 📂 subject301/ (80 images)
+│       ├── 📂 subject302/ (80 images)
+│       ├── 📂 subject303/ (80 images)
+│       ├── 📂 subject304/ (80 images)
+│       ├── 📂 subject305/ (80 images)
+│       ├── 📂 subject306/ (80 images)
+│       ├── 📂 subject307/ (80 images)
+│       ├── 📂 subject308/ (80 images)
+│       ├── 📂 subject309/ (80 images)
+│       ├── 📂 subject310/ (80 images)
+│       ├── 📂 subject311/ (80 images)
+│       ├── 📂 subject312/ (80 images)
+│       ├── 📂 subject313/ (80 images)
+│       ├── 📂 subject314/ (80 images)
+│       ├── 📂 subject315/ (80 images)
+│       ├── 📂 subject316/ (80 images)
+│       ├── 📂 subject317/ (80 images)
+│       ├── 📂 subject318/ (80 images)
+│       ├── 📂 subject319/ (80 images)
+│       ├── 📂 subject320/ (80 images)
+│       ├── 📂 subject321/ (80 images)
+│       ├── 📂 subject322/ (80 images)
+│       ├── 📂 subject323/ (80 images)
+│       ├── 📂 subject324/ (80 images)
+│       ├── 📂 subject325/ (80 images)
+│       ├── 📂 subject326/ (80 images)
+│       ├── 📂 subject327/ (80 images)
+│       ├── 📂 subject328/ (80 images)
+│       ├── 📂 subject329/ (80 images)
+│       ├── 📂 subject330/ (80 images)
+│       ├── 📂 subject331/ (80 images)
+│       ├── 📂 subject332/ (80 images)
+│       ├── 📂 subject333/ (80 images)
+│       ├── 📂 subject334/ (80 images)
+│       ├── 📂 subject335/ (80 images)
+│       ├── 📂 subject336/ (80 images)
+│       ├── 📂 subject337/ (80 images)
+│       ├── 📂 subject338/ (80 images)
+│       ├── 📂 subject339/ (80 images)
+│       ├── 📂 subject340/ (80 images)
+│       ├── 📂 subject341/ (80 images)
+│       ├── 📂 subject342/ (80 images)
+│       ├── 📂 subject343/ (80 images)
+│       ├── 📂 subject344/ (80 images)
+│       ├── 📂 subject345/ (80 images)
+│       ├── 📂 subject346/ (80 images)
+│       ├── 📂 subject347/ (80 images)
+│       ├── 📂 subject348/ (80 images)
+│       ├── 📂 subject349/ (80 images)
+│       ├── 📂 subject350/ (80 images)
+│       ├── 📂 subject351/ (80 images)
+│       ├── 📂 subject352/ (80 images)
+│       ├── 📂 subject353/ (80 images)
+│       ├── 📂 subject354/ (80 images)
+│       ├── 📂 subject355/ (80 images)
+│       ├── 📂 subject356/ (80 images)
+│       ├── 📂 subject357/ (80 images)
+│       ├── 📂 subject358/ (80 images)
+│       ├── 📂 subject359/ (80 images)
+│       ├── 📂 subject360/ (80 images)
+│       ├── 📂 subject361/ (80 images)
+│       ├── 📂 subject362/ (80 images)
+│       ├── 📂 subject363/ (80 images)
+│       ├── 📂 subject364/ (80 images)
+│       ├── 📂 subject365/ (80 images)
+│       ├── 📂 subject366/ (80 images)
+│       ├── 📂 subject367/ (80 images)
+│       ├── 📂 subject368/ (80 images)
+│       ├── 📂 subject369/ (80 images)
+│       ├── 📂 subject370/ (80 images)
+│       ├── 📂 subject371/ (80 images)
+│       ├── 📂 subject372/ (80 images)
+│       ├── 📂 subject373/ (80 images)
+│       ├── 📂 subject374/ (80 images)
+│       ├── 📂 subject375/ (80 images)
+│       ├── 📂 subject376/ (80 images)
+│       ├── 📂 subject377/ (80 images)
+│       ├── 📂 subject378/ (80 images)
+│       ├── 📂 subject379/ (80 images)
+│       ├── 📂 subject380/ (80 images)
+│       ├── 📂 subject381/ (80 images)
+│       ├── 📂 subject382/ (80 images)
+│       ├── 📂 subject383/ (80 images)
+│       ├── 📂 subject384/ (80 images)
+│       ├── 📂 subject385/ (80 images)
+│       ├── 📂 subject386/ (80 images)
+│       ├── 📂 subject387/ (80 images)
+│       ├── 📂 subject388/ (80 images)
+│       ├── 📂 subject389/ (80 images)
+│       ├── 📂 subject390/ (80 images)
+│       ├── 📂 subject391/ (80 images)
+│       ├── 📂 subject392/ (80 images)
+│       ├── 📂 subject393/ (80 images)
+│       ├── 📂 subject394/ (80 images)
+│       ├── 📂 subject395/ (80 images)
+│       ├── 📂 subject396/ (80 images)
+│       ├── 📂 subject397/ (80 images)
+│       ├── 📂 subject398/ (80 images)
+│       ├── 📂 subject399/ (80 images)
+│       ├── 📂 subject400/ (80 images)
+│       ├── 📂 subject401/ (80 images)
+│       ├── 📂 subject402/ (80 images)
+│       ├── 📂 subject403/ (80 images)
+│       ├── 📂 subject404/ (80 images)
+│       ├── 📂 subject405/ (80 images)
+│       ├── 📂 subject406/ (80 images)
+│       ├── 📂 subject407/ (80 images)
+│       ├── 📂 subject408/ (80 images)
+│       ├── 📂 subject409/ (80 images)
+│       ├── 📂 subject410/ (80 images)
+│       ├── 📂 subject411/ (80 images)
+│       ├── 📂 subject412/ (80 images)
+│       ├── 📂 subject413/ (80 images)
+│       ├── 📂 subject414/ (80 images)
+│       ├── 📂 subject415/ (80 images)
+│       ├── 📂 subject416/ (80 images)
+│       ├── 📂 subject417/ (80 images)
+│       ├── 📂 subject418/ (80 images)
+│       ├── 📂 subject419/ (80 images)
+│       ├── 📂 subject420/ (80 images)
+│       ├── 📂 subject421/ (80 images)
+│       ├── 📂 subject422/ (80 images)
+│       ├── 📂 subject423/ (80 images)
+│       ├── 📂 subject424/ (80 images)
+│       ├── 📂 subject425/ (80 images)
+│       ├── 📂 subject426/ (80 images)
+│       ├── 📂 subject427/ (80 images)
+│       ├── 📂 subject428/ (80 images)
+│       ├── 📂 subject429/ (80 images)
+│       ├── 📂 subject430/ (80 images)
+│       ├── 📂 subject431/ (80 images)
+│       ├── 📂 subject432/ (80 images)
+│       ├── 📂 subject433/ (80 images)
+│       ├── 📂 subject434/ (80 images)
+│       ├── 📂 subject435/ (80 images)
+│       ├── 📂 subject436/ (80 images)
+│       ├── 📂 subject437/ (80 images)
+│       ├── 📂 subject438/ (80 images)
+│       ├── 📂 subject439/ (80 images)
+│       ├── 📂 subject440/ (80 images)
+│       ├── 📂 subject441/ (80 images)
+│       ├── 📂 subject442/ (80 images)
+│       ├── 📂 subject443/ (80 images)
+│       ├── 📂 subject444/ (80 images)
+│       ├── 📂 subject445/ (80 images)
+│       ├── 📂 subject446/ (80 images)
+│       ├── 📂 subject447/ (80 images)
+│       ├── 📂 subject448/ (80 images)
+│       ├── 📂 subject449/ (80 images)
+│       ├── 📂 subject450/ (80 images)
+│       ├── 📂 subject451/ (80 images)
+│       ├── 📂 subject452/ (80 images)
+│       ├── 📂 subject453/ (80 images)
+│       ├── 📂 subject454/ (80 images)
+│       ├── 📂 subject455/ (80 images)
+│       ├── 📂 subject456/ (80 images)
+│       ├── 📂 subject457/ (80 images)
+│       ├── 📂 subject458/ (80 images)
+│       ├── 📂 subject459/ (80 images)
+│       ├── 📂 subject460/ (80 images)
+│       ├── 📂 subject461/ (80 images)
+│       ├── 📂 subject462/ (80 images)
+│       ├── 📂 subject463/ (80 images)
+│       ├── 📂 subject464/ (80 images)
+│       ├── 📂 subject465/ (80 images)
+│       ├── 📂 subject466/ (80 images)
+│       ├── 📂 subject467/ (80 images)
+│       ├── 📂 subject468/ (80 images)
+│       ├── 📂 subject469/ (80 images)
+│       ├── 📂 subject470/ (80 images)
+│       ├── 📂 subject471/ (80 images)
+│       ├── 📂 subject472/ (80 images)
+│       ├── 📂 subject473/ (80 images)
+│       ├── 📂 subject474/ (80 images)
+│       ├── 📂 subject475/ (80 images)
+│       ├── 📂 subject476/ (80 images)
+│       ├── 📂 subject477/ (80 images)
+│       ├── 📂 subject478/ (80 images)
+│       ├── 📂 subject479/ (80 images)
+│       ├── 📂 subject480/ (80 images)
+│       ├── 📂 subject481/ (80 images)
+│       ├── 📂 subject482/ (80 images)
+│       ├── 📂 subject483/ (80 images)
+│       ├── 📂 subject484/ (80 images)
+│       ├── 📂 subject485/ (80 images)
+│       ├── 📂 subject486/ (80 images)
+│       ├── 📂 subject487/ (80 images)
+│       ├── 📂 subject488/ (80 images)
+│       ├── 📂 subject489/ (80 images)
+│       ├── 📂 subject490/ (80 images)
+│       ├── 📂 subject491/ (80 images)
+│       ├── 📂 subject492/ (80 images)
+│       ├── 📂 subject493/ (80 images)
+│       ├── 📂 subject494/ (80 images)
+│       ├── 📂 subject495/ (80 images)
+│       ├── 📂 subject496/ (80 images)
+│       ├── 📂 subject497/ (80 images)
+│       ├── 📂 subject498/ (80 images)
+│       ├── 📂 subject499/ (80 images)
+│       └── 📂 subject500/ (80 images)
+└── 📂 AMSL_SynFP_SGR_v1/ (50,000 images)
+       [3× other]
+    └── 📂 crossmatch_andrey_512_seeds1-50000/ (50,000 images)
+           [50000× .png]
+
+======================================================================
+📂 ANALYZING: Dataset2-Synthetic
+   Path: /kaggle/input/datasets/kushpatel7391/afr-training-synthetic
+======================================================================
+🔍 Scanning for image files...
+   Found: 130,000 images
+📊 Extracting metadata from ALL 130,000 images...
+Metadata: 100%|██████████| 130000/130000 [17:14<00:00, 125.66it/s]
+✅ Analysis complete for Dataset2-Synthetic
+
+────────────────────────────────────────────────────────────
+📋 SUMMARY: Dataset2-Synthetic
+────────────────────────────────────────────────────────────
+
+📁 Total images:     130,000
+   Valid (readable): 130,000
+   Errors:           0
+
+📄 File Formats:
+       .png:  130,000 (100.0%)
+
+🎨 Image Modes (Channels):
+          L (1ch):  130,000 (100.0%)
+
+📐 Resolution Statistics:
+   Width  — min:   300  max:   512  mean:   381.5  median:   300.0
+   Height — min:   420  max:   512  mean:   455.4  median:   420.0
+
+📏 Unique Resolutions: 2
+   Top 10:
+           300×420:   80,000 (61.5%)
+           512×512:   50,000 (38.5%)
+
+📐 Aspect Ratios:
+   min: 0.714  max: 1.000  mean: 0.824
+
+💾 File Sizes:
+   min: 36.0 KB  max: 160.2 KB  mean: 83.5 KB  total: 10599.6 MB
+
+🔲 Pixel Intensity (grayscale, sampled 500 images):
+   Mean intensity — min: 146.6  max: 239.2  avg: 209.8
+   Std intensity  — min: 35.7  max: 91.2  avg: 62.7
+
+📂 Sub-datasets found:
+                           AMSL-SGR-v1: 50,000 images  |  W:      512–512  H:      512–512  |  L
+                           AMSL-P2P-v1: 40,000 images  |  W:      300–300  H:      420–420  |  L
+                           AMSL-P2P-v2: 40,000 images  |  W:      300–300  H:      420–420  |  L
+   💾 Saved: /kaggle/working/analysis_output/d2_formats.png
+
+   💾 Saved: /kaggle/working/analysis_output/d2_resolution.png
+
+   💾 Saved: /kaggle/working/analysis_output/d2_resolution_by_sub.png
+
+   💾 Saved: /kaggle/working/analysis_output/d2_intensity.png
+
+   💾 Saved: /kaggle/working/analysis_output/d2_samples.png
+
+   💾 Saved: /kaggle/working/analysis_output/d2_resize_impact.png
+
+   💾 Saved: /kaggle/working/analysis_output/d2_resize_visual.png
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+         DATASET 3: AFR-TRAINING-MISC
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+📁 DIRECTORY TREE: afr-training-misc
+────────────────────────────────────────────────────────────
+├── 📂 ISPFDv1/ (5,040 images)
+│      [1× other]
+│   ├── 📂 Live Scan/ (1,008 images)
+│   │      [1008× .jpg  |  1× other]
+│   ├── 📂 Natural/ (2,016 images)
+│   │   ├── 📂 Indoor/ (1,008 images)
+│   │   └── 📂 Outdoor/ (1,008 images)
+│   └── 📂 White/ (2,016 images)
+│       ├── 📂 Indoor/ (1,008 images)
+│       └── 📂 Outdoor/ (1,008 images)
+├── 📂 LivDet_Fingerprint_2015/ (28,366 images)
+│   ├── 📂 Testing-20260410T073405Z-3-001/ (10,448 images)
+│   │   └── 📂 Testing/ (10,448 images)
+│   └── 📂 Training-20260410T073405Z-3-001/ (17,918 images)
+│       └── 📂 Training/ (17,918 images)
+├── 📂 LivDet_Fingerprint_2017-20260410T070657Z-3-001/ (22,857 images)
+│   └── 📂 LivDet_Fingerprint_2017/ (22,857 images)
+│       ├── 📂 Dermalog/ (14,009 images)
+│       ├── 📂 Greenbit/ (3,110 images)
+│       ├── 📂 IntegratedBio/ (4,190 images)
+│       └── 📂 SilkID/ (1,548 images)
+├── 📂 MUST Latent Fingerprint Dataset/ (25,407 images)
+│   ├── 📂 Extended_gallery/ (3,920 images)
+│   │   └── 📂 MOLF_DB3_A_CrossMatchCropped-SubID_InstanceID_FingerID/ (3,920 images)
+│   ├── 📂 Minutuae_GroundTruth/ (0 images)
+│   │   └── 📂 XYT/ (0 images)
+│   ├── 📂 RotatedSegmentedPPI_500/ (17,047 images)
+│   │   ├── 📂 10378/ (1,420 images)
+│   │   ├── 📂 11387/ (1,397 images)
+│   │   ├── 📂 12345/ (1,464 images)
+│   │   ├── 📂 25815/ (1,380 images)
+│   │   ├── 📂 34613/ (1,434 images)
+│   │   ├── 📂 43781/ (1,394 images)
+│   │   ├── 📂 53759/ (1,450 images)
+│   │   ├── 📂 54321/ (1,410 images)
+│   │   ├── 📂 78960/ (1,460 images)
+│   │   ├── 📂 82373/ (1,380 images)
+│   │   ├── 📂 94381/ (1,464 images)
+│   │   └── 📂 96418/ (1,394 images)
+│   └── 📂 Segmentation Masks/ (4,440 images)
+│       └── 📂 masks/ (4,440 images)
+└── 📂 UNFIT/ (6,900 images)
+       [1× other]
+    ├── 📂 annotations/ (3,450 images)
+    │      [3450× .png]
+    └── 📂 images/ (3,450 images)
+           [3470× .png]
+
+======================================================================
+📂 ANALYZING: Dataset3-Misc
+   Path: /kaggle/input/datasets/kushpatel7391/afr-training-misc
+======================================================================
+🔍 Scanning for image files...
+   Found: 88,570 images
+📊 Extracting metadata from ALL 88,570 images...
+Metadata: 100%|██████████| 88570/88570 [11:37<00:00, 126.98it/s]
+✅ Analysis complete for Dataset3-Misc
+
+────────────────────────────────────────────────────────────
+📋 SUMMARY: Dataset3-Misc
+────────────────────────────────────────────────────────────
+
+📁 Total images:     88,570
+   Valid (readable): 88,570
+   Errors:           0
+
+📄 File Formats:
+       .bmp:   46,143 (52.1%)
+       .png:   20,344 (23.0%)
+      .tiff:   17,047 (19.2%)
+       .jpg:    5,036 (5.7%)
+
+🎨 Image Modes (Channels):
+          L (1ch):   48,425 (54.7%)
+        RGB (3ch):   30,847 (34.8%)
+          P (1ch):    4,500 (5.1%)
+          1 (1ch):    4,440 (5.0%)
+       I;16 (1ch):      356 (0.4%)
+       RGBA (4ch):        2 (0.0%)
+
+📐 Resolution Statistics:
+   Width  — min:    99  max:  4640  mean:   690.5  median:   400.0
+   Height — min:   109  max:  4640  mean:   743.9  median:   500.0
+
+📏 Unique Resolutions: 16565
+   Top 10:
+           320×480:   10,559 (11.9%)
+           800×750:   10,328 (11.7%)
+           500×500:    4,501 (5.1%)
+           252×324:    4,501 (5.1%)
+         1000×1000:    4,500 (5.1%)
+           224×224:    4,440 (5.0%)
+         3264×2448:    4,216 (4.8%)
+           400×500:    4,190 (4.7%)
+           799×749:    3,920 (4.4%)
+           360×400:    3,110 (3.5%)
+
+📐 Aspect Ratios:
+   min: 0.263  max: 1.951  mean: 0.877
+
+💾 File Sizes:
+   min: 0.1 KB  max: 28421.4 KB  mean: 532.4 KB  total: 46047.5 MB
+
+🔲 Pixel Intensity (grayscale, sampled 500 images):
+   Mean intensity — min: 0.0  max: 255.0  avg: 182.3
+   Std intensity  — min: 0.0  max: 127.4  avg: 53.4
+
+📂 Sub-datasets found:
+                     MUST/LatentPrints: 17,047 images  |  W:      137–862  H:     109–1508  |  L, RGB, I;16
+                      LivDet2015/Spoof: 14,916 images  |  W:     252–1000  H:     324–1000  |  L, RGB, P
+                       LivDet2015/Live: 13,456 images  |  W:     252–1000  H:     324–1000  |  L, RGB, P
+                       LivDet2017/Live: 10,452 images  |  W:      120–466  H:      218–500  |  L
+                            LivDet2017:  9,476 images  |  W:       99–461  H:      193–500  |  L
+                         MUST/SegMasks:  4,440 images  |  W:      224–224  H:      224–224  |  1
+                          MUST/Gallery:  3,920 images  |  W:      105–480  H:      240–624  |  RGB
+                     UNFIT/Annotations:  3,450 images  |  W:     575–4640  H:     584–4640  |  RGB
+                          UNFIT/Images:  3,450 images  |  W:     575–4640  H:     584–4640  |  RGB
+                      LivDet2017/Spoof:  2,844 images  |  W:      360–400  H:      400–500  |  L
+                ISPFDv1/Natural-Indoor:  1,008 images  |  W:    3264–3264  H:    2448–2448  |  RGB, RGBA
+                      ISPFDv1/LiveScan:  1,008 images  |  W:      544–544  H:      352–352  |  L
+                  ISPFDv1/White-Indoor:  1,008 images  |  W:    3264–3264  H:    2448–2448  |  RGB
+               ISPFDv1/Natural-Outdoor:  1,008 images  |  W:    3264–3264  H:    2448–2448  |  RGB
+                 ISPFDv1/White-Outdoor:  1,008 images  |  W:    3264–3264  H:    2448–2448  |  RGB
+                            LivDet2011:     62 images  |  W:      300–338  H:      372–480  |  L
+                       LivDet2013/Live:      8 images  |  W:      320–320  H:      480–480  |  L
+                       LivDet2011/Live:      3 images  |  W:      320–320  H:      480–480  |  L
+                            LivDet2013:      3 images  |  W:      320–320  H:      480–480  |  L
+                            LivDet2015:      3 images  |  W:      320–320  H:      480–480  |  L
+   💾 Saved: /kaggle/working/analysis_output/d3_formats.png
+
+   💾 Saved: /kaggle/working/analysis_output/d3_resolution.png
+
+   💾 Saved: /kaggle/working/analysis_output/d3_resolution_by_sub.png
+
+   💾 Saved: /kaggle/working/analysis_output/d3_intensity.png
+
+   💾 Saved: /kaggle/working/analysis_output/d3_samples.png
+
+   💾 Saved: /kaggle/working/analysis_output/d3_resize_impact.png
+
+   💾 Saved: /kaggle/working/analysis_output/d3_resize_visual.png
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+         DATASET 4: AFR-VALIDATION-TEST
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+📁 DIRECTORY TREE: level-three-synthetic-fingerprint-generation-l3-sf
+────────────────────────────────────────────────────────────
+└── 📂 L3SF_V2/ (8,140 images)
+    ├── 📂 L3-SF/ (7,400 images)
+    │   ├── 📂 R1/ (1,480 images)
+    │   ├── 📂 R2/ (1,480 images)
+    │   ├── 📂 R3/ (1,480 images)
+    │   ├── 📂 R4/ (1,480 images)
+    │   └── 📂 R5/ (1,480 images)
+    └── 📂 Pore ground truth/ (740 images)
+        ├── 📂 Fingerprint Images/ (740 images)
+        └── 📂 Ground truth/ (0 images)
+
+======================================================================
+📂 ANALYZING: Dataset4-Validation
+   Path: /kaggle/input/datasets/abvwmc/level-three-synthetic-fingerprint-generation-l3-sf
+======================================================================
+🔍 Scanning for image files...
+   Found: 8,140 images
+📊 Extracting metadata from ALL 8,140 images...
+Metadata: 100%|██████████| 8140/8140 [00:44<00:00, 183.24it/s]
+✅ Analysis complete for Dataset4-Validation
+
+────────────────────────────────────────────────────────────
+📋 SUMMARY: Dataset4-Validation
+────────────────────────────────────────────────────────────
+
+📁 Total images:     8,140
+   Valid (readable): 8,140
+   Errors:           0
+
+📄 File Formats:
+       .png:    7,400 (90.9%)
+       .jpg:      740 (9.1%)
+
+🎨 Image Modes (Channels):
+        RGB (3ch):    8,140 (100.0%)
+
+📐 Resolution Statistics:
+   Width  — min:   320  max:   512  mean:   337.5  median:   320.0
+   Height — min:   240  max:   512  mean:   264.7  median:   240.0
+
+📏 Unique Resolutions: 2
+   Top 10:
+           320×240:    7,400 (90.9%)
+           512×512:      740 (9.1%)
+
+📐 Aspect Ratios:
+   min: 1.000  max: 1.333  mean: 1.303
+
+💾 File Sizes:
+   min: 61.3 KB  max: 77.7 KB  mean: 68.3 KB  total: 543.0 MB
+
+🔲 Pixel Intensity (grayscale, sampled 500 images):
+   Mean intensity — min: 98.9  max: 166.2  avg: 122.8
+   Std intensity  — min: 22.3  max: 35.9  avg: 28.0
+
+📂 Sub-datasets found:
+                              L3-SF-v2:  8,140 images  |  W:      320–512  H:      240–512  |  RGB
+   💾 Saved: /kaggle/working/analysis_output/d4_formats.png
+
+   💾 Saved: /kaggle/working/analysis_output/d4_resolution.png
+
+   💾 Saved: /kaggle/working/analysis_output/d4_resolution_by_sub.png
+
+   💾 Saved: /kaggle/working/analysis_output/d4_intensity.png
+
+   💾 Saved: /kaggle/working/analysis_output/d4_samples.png
+
+   💾 Saved: /kaggle/working/analysis_output/d4_resize_impact.png
+
+   💾 Saved: /kaggle/working/analysis_output/d4_resize_visual.png
+
+🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+      UNIFIED CROSS-DATASET COMPARISON
+🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+
+📊 GRAND TOTAL: 442,063 valid images across all datasets
+   💾 Saved: /kaggle/working/analysis_output/cross_dataset_comparison.png
+
+════════════════════════════════════════════════════════════════════════════════
+              📊 GRAND SUMMARY TABLE
+════════════════════════════════════════════════════════════════════════════════
+            Dataset  Total Images                 Formats                    Modes Min Resolution Max Resolution  Median W  Median H  Smallest Dim % Grayscale % Need Upscale (224) % Need Downscale (224)
+      Dataset1-Real        215353        .tif, .bmp, .png    L, RGBA, RGB, I;16, 1            1×1      4992×5120        96       103             1       94.2%                50.4%                  49.6%
+ Dataset2-Synthetic        130000                    .png                        L        300×420        512×512       300       420           300      100.0%                 0.0%                 100.0%
+      Dataset3-Misc         88570 .jpg, .png, .bmp, .tiff L, RGB, RGBA, P, I;16, 1         99×109      4640×4640       400       500            99       65.2%                 2.2%                  92.4%
+Dataset4-Validation          8140              .png, .jpg                      RGB        320×240        512×512       320       240           240        0.0%                 0.0%                 100.0%
+
+💾 Saved: /kaggle/working/analysis_output/grand_summary.csv
+💾 Saved: /kaggle/working/analysis_output/all_images_metadata.csv
+
+════════════════════════════════════════════════════════════════════════════════
+         🎯 PREPROCESSING RECOMMENDATIONS
+════════════════════════════════════════════════════════════════════════════════
+
+    FINDINGS:
+    ─────────
+    • Total images across all datasets: 442,063
+    • Smallest image in entire corpus:  1 pixels
+    • Largest image in entire corpus:   5120 pixels
+    • Median minimum dimension:         300 pixels
+    
+    • Images smaller than 224px:  110,400 (25.0%)
+    • Images at 224-320px:        137,163 (31.0%)
+    • Images at 320-512px:        101,519 (23.0%)
+    • Images larger than 512px:   92,981 (21.0%)
+    
+    GRAYSCALE vs COLOR:
+    • 390,624 grayscale (88.4%)
+    • 51,439 color (11.6%)
+    
+    ⚠️ Review the plots above to make your preprocessing decision!
+    Share all generated images in /kaggle/working/analysis_output/ with me for recommendations.
+    
+
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+         ANALYSIS COMPLETE!
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+All outputs saved to: /kaggle/working/analysis_output/
+
+Files generated:
+  📊 d1_*.png — Dataset 1 analysis plots
+  📊 d2_*.png — Dataset 2 analysis plots
+  📊 d3_*.png — Dataset 3 analysis plots
+  📊 d4_*.png — Dataset 4 analysis plots
+  📊 cross_dataset_comparison.png — Unified comparison
+  📋 grand_summary.csv — Summary statistics table
+  📋 all_images_metadata.csv — Full metadata for every image
+
+NEXT STEP: Download these outputs and share with me!
+I'll analyze them to determine the optimal preprocessing strategy.
